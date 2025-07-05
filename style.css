@@ -47,7 +47,7 @@ button:hover{
     border: 2px solid white;
 }
 #home{
-    max-width: 100%;
+    width: 100%;
     box-shadow: 5px 5px 5px blueviolet;
     min-width: 300px;
 }
