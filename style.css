@@ -48,7 +48,7 @@ button:hover{
 #home{
     width: 100%;
     box-shadow: 5px 5px 5px blueviolet;
-    min-width: 300px;
+    min-width: 350px;
 }
 #home:hover{
     box-shadow: 5px 5px 5px white;
