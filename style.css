@@ -105,7 +105,7 @@ h2{
     justify-content: center;
     justify-self: center;
     max-width: 1000px;
-    gap: 20px;
+    gap: 40px 15px;
 }
 .imageContainer{
     position: relative;
@@ -116,7 +116,12 @@ h2{
 }
 .flexText{
     position: absolute;
-    bottom: 20px;
-    margin-left: -50%;
-    transform: translate(-50%);
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    bottom: -25px;
 }
