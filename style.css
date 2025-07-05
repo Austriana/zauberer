@@ -6,6 +6,20 @@ body{
     min-width: 350px;
     box-sizing: border-box;
 }
+h2{
+    text-align: center;
+    padding: 35px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+#home{
+    width: 100%;
+    box-shadow: 5px 5px 5px blueviolet;
+}
+#home:hover{
+    box-shadow: 5px 5px 5px white;
+}
 #navBar{
     position:absolute;
     top: 0;
@@ -34,20 +48,7 @@ body{
 #navContainer li{
     margin: 5px;
 }
-h2{
-    text-align: center;
-    padding: 35px;
-    font-size: 40px;
-    color: white;
-    text-shadow: 2px 2px 2px blueviolet;
-}
-#home{
-    width: 100%;
-    box-shadow: 5px 5px 5px blueviolet;
-}
-#home:hover{
-    box-shadow: 5px 5px 5px white;
-}
+
 #patrickContainer {
     display: flex;
     flex-wrap: wrap;
