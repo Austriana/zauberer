@@ -1,0 +1,26 @@
+#unsereLeistungenFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    max-width: 1000px;
+    gap: 40px 15px;
+}
+.imageContainer{
+    position: relative;
+}
+.flexImage{
+    width: 300px;
+    border-radius: 30px;
+}
+.flexText{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    bottom: -25px;
+}

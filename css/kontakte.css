@@ -1,0 +1,12 @@
+#kontaktFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: center;
+}
+.kontaktClass{
+    margin: 10px;
+}
+#sendenContainer, #kontaktContainer{
+    justify-self: center;
+}
