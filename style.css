@@ -6,25 +6,58 @@ body{
     min-width: 350px;
     box-sizing: border-box;
 }
-h2{
+h1{
     text-align: center;
-    padding: 35px;
     font-size: 40px;
     color: white;
     text-shadow: 2px 2px 2px blueviolet;
 }
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+h3{
+    text-align: center;
+}
+input{
+    height: 40px;
+    min-width: 300px;
+    max-width: 800px;
+    border: 2px solid blueviolet;
+    background-color: transparent;
+    color: white;
+    text-indent: 10px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+}
+button:hover{
+    border: 2px solid white;
+}
 #home{
-    width: 100%;
+    max-width: 100%;
     box-shadow: 5px 5px 5px blueviolet;
+    min-width: 300px;
 }
 #home:hover{
     box-shadow: 5px 5px 5px white;
 }
 #navBar{
     position:absolute;
-    top: 0;
+    top: 20px;
     justify-self: center;
-
 }
 #navContainer ul{
     display: flex;
@@ -47,8 +80,8 @@ h2{
 }
 #navContainer li{
     margin: 5px;
+    font-size: 25px;
 }
-
 #patrickContainer {
     display: flex;
     flex-wrap: wrap;
@@ -128,4 +161,22 @@ h2{
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     bottom: -25px;
+}
+#gutscheinContainer{
+    padding-top: 50px;
+}
+#geschenkImageContainer{
+    justify-self: center;
+}
+#kontaktFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: center;
+}
+.kontaktClass{
+    margin: 10px;
+}
+#sendenContainer, #kontaktContainer{
+    justify-self: center;
 }
