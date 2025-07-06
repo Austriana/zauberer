@@ -1,3 +1,6 @@
+#homeContainer{
+    position: relative;
+}
 #home{
     width: 100%;
     box-shadow: 5px 5px 5px blueviolet;
@@ -6,7 +9,44 @@
 #home:hover{
     box-shadow: 5px 5px 5px white;
 }
-#navBar{
+#menuContainer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#menuImage{
+    width: 80px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 3px;
+    opacity: 80%;
+    display: inline-block;
+}
+#menuImage:hover{
+    opacity: 100%;
+}
+#menuFenster{
+    background-color: rgba(130, 43, 212, 0.5);
+    padding: 0px;
+    margin: 0;
+    border-radius: 10px;
+    display: none;
+}
+#menuContainer a{
+    color: white;
+}
+#menuContainer li{
+    list-style: none;
+    margin: 10px;
+}
+#menuContainer ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+/* #navBar{
     position:absolute;
     top: 20px;
     justify-self: center;
@@ -33,4 +73,4 @@
 #navContainer li{
     margin: 5px;
     font-size: 25px;
-}
+} */
