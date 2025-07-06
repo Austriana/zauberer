@@ -28,7 +28,7 @@
     opacity: 100%;
 }
 #menuFenster{
-    background-color: rgba(130, 43, 212, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 0px;
     margin: 0;
     border-radius: 10px;
@@ -37,7 +37,7 @@
 }
 #menuContainer a{
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px blueviolet;
 }
 #menuContainer li{
     list-style: none;
