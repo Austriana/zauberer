@@ -10,3 +10,19 @@
 #sendenContainer, #kontaktContainer{
     justify-self: center;
 }
+#nachrichtContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+#nachricht{
+    display: block;
+    width: 99%;
+    height: 40px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+}

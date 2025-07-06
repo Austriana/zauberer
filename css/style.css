@@ -31,8 +31,17 @@ input{
     text-indent: 10px;
     border-radius: 10px;
 }
-input::placeholder{
+input::placeholder, textarea::placeholder{
     color: white;
+}
+textarea{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-indent: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 button{
     height: 40px;
