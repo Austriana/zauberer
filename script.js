@@ -26,10 +26,10 @@ let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
     siteMenu();
 })
-// let senden = document.getElementById('senden');
-// senden.addEventListener('click', ()=>{
-//     sendEmail();
-// })
+let senden = document.getElementById('senden');
+senden.addEventListener('click', ()=>{
+    sendEmail();
+})
 
 function menu(){
     let menuFenster = document.getElementById("menuFenster").style;
