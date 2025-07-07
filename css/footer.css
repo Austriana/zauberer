@@ -1,0 +1,26 @@
+#footerContainer{
+    position: relative;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(118, 36, 196, 0.8);
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+}
+#footer a{
+    color: black;
+    text-decoration: none;
+}
+#siteMapImage{
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    translate: 0, -50%;
+    bottom: 5px;
+    cursor: pointer;
+}
+#siteMapImage:hover{
+    scale: 1.1;
+}
