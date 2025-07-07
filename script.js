@@ -64,12 +64,12 @@ function sendEmail(){
     let telefon = document.getElementById('telefon').value;
     let nachricht = document.getElementById('nachricht').value;
     if(vorName !== '' && nachName !== '' && email !== '' && nachricht !== ''){
-        alert(` Hallo ${vorName} ${nachName},\n
+    console.log(` Hallo ${vorName} ${nachName},\n
                 Email: ${email}\n
                 Nachricht: ${nachricht}\n                
                 Telefon Nummer: ${telefon||'-'}\n
                 Vielen Dank! 💜`);
     } else{
-        alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
+        console.log("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
     }
 }
