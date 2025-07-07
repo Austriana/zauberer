@@ -142,33 +142,32 @@
             <img id="geschenkImage" src="./picture/geschenk.avif" alt="geschenk schwarzweiß">
          </div>
          <h2>Wir bieten Gutscheine für all unsere Services an.</h2>
-   </div>
+      </div>
 <!-- kontakt -->
       <div id="kontaktContainer">
          <h1 id="kontakt" >Kontakt</h1>
          <!--  action="https://formcarry.com/s/a0RVaUDdE7z" method="POST" -->
-         <div > 
-            <form id="kontaktFlexContainer" action="https://formcarry.com/s/a0RVaUDdE7z" method="POST"
-            >
-            <div class="kontaktClass"id="vorNameContainer">
-               <input name="vorName" id="vorName" type="text" placeholder="*Vorname" required>
+         <form action="https://formcarry.com/s/a0RVaUDdE7z" method="POST"> 
+            <div id="kontaktFlexContainer">
+               <div class="kontaktClass"id="vorNameContainer">
+                  <input name="vorName" id="vorName" type="text" placeholder="*Vorname" required>
+               </div>
+               <div class="kontaktClass" id="nachNameContainer">
+                  <input name="nachName" id="nachName" type="text" placeholder="*Nachname" required>
+               </div>
+               <div class="kontaktClass"id="emailContainer">
+                  <input name="email" id="email" type="email" placeholder="*Email" autocomplete="on" required>
+               </div>
+               <div class="kontaktClass"id="telefonContainer" >
+                  <input name="telefon" id="telefon" type="tel" placeholder="Telefon"  >
+               </div>
             </div>
-            <div class="kontaktClass" id="nachNameContainer">
-               <input name="nachName" id="nachName" type="text" placeholder="*Nachname" required>
+            <div class="kontaktClass"id="nachrichtContainer" >
+               <textarea name="nachricht" id="nachricht" placeholder="*Nachricht schreiben..." required ></textarea>
             </div>
-            <div class="kontaktClass"id="emailContainer">
-               <input name="email" id="email" type="email" placeholder="*Email" autocomplete="on" required>
+            <div class="kontaktClass"id="sendenContainer" >
+               <button id="senden" type="submit">Senden</button>
             </div>
-            <div class="kontaktClass"id="telefonContainer" >
-               <input name="telefon" id="telefon" type="tel" placeholder="Telefon"  >
-            </div>
-         </div>
-         <div class="kontaktClass"id="nachrichtContainer" >
-            <textarea name="nachricht" id="nachricht" placeholder="*Nachricht schreiben..." required ></textarea>
-         </div>
-         <div class="kontaktClass"id="sendenContainer" >
-            <button id="senden" type="submit">Senden</button>
-         </div>
          </form>
       </div>
    </main>
