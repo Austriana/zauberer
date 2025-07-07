@@ -71,6 +71,5 @@ function sendEmail(){
                 Vielen Dank! 💜`);
     } else{
         alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
-    } 
-
+    }
 }
