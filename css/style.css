@@ -58,3 +58,15 @@ button{
 button:hover{
     border: 2px solid white;
 }
+/* #siteMenuContainer{
+
+}
+#siteMenuContainer ul{
+
+} */
+#siteMenuContainer li{
+    list-style: none;
+}
+#siteMenuContainer a{
+    text-decoration: none;
+}
