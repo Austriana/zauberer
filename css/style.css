@@ -62,8 +62,9 @@ html{
     width: 100%;
     height: 100%;
 }
-/* #siteMenuContainer{
-} */
+#siteMenuContainer{
+    display: none;    
+}
 #siteMenuContainer li{
     list-style: none;
 }
