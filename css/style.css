@@ -64,3 +64,8 @@ button:hover{
 #siteMenuContainer a{
     text-decoration: none;
 }
+#siteMenuContainer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
