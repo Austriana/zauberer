@@ -26,10 +26,10 @@ let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
     siteMenu();
 })
-// let senden = document.getElementById('senden');
-// senden.addEventListener('click', ()=>{
-//     sendEmail();
-// })
+let senden = document.getElementById('senden');
+senden.addEventListener('click', ()=>{
+    sendEmail();
+})
 
 function menu(){
     let menuFenster = document.getElementById("menuFenster").style;
@@ -64,12 +64,12 @@ function sendEmail(){
     let telefon = document.getElementById('telefon').value;
     let nachricht = document.getElementById('nachricht').value;
     if(vorName !== '' && nachName !== '' && email !== '' && nachricht !== ''){
-    console.log(` Hallo ${vorName} ${nachName},\n
+        alert(` Hallo ${vorName} ${nachName},\n
                 Email: ${email}\n
                 Nachricht: ${nachricht}\n                
                 Telefon Nummer: ${telefon||'-'}\n
                 Vielen Dank! 💜`);
     } else{
-        console.log("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
+        alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
     }
 }
