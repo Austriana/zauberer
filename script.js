@@ -26,6 +26,10 @@ let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
     siteMenu();
 })
+let senden = document.getElementById('senden');
+senden.addEventListener('click', ()=>{
+    sendEmail();
+})
 
 function menu(){
     let menuFenster = document.getElementById("menuFenster").style;
@@ -43,7 +47,7 @@ function siteMenu(){
     let mainContainer = document.getElementById('mainContainer').style;
     let siteMenuContainer = document.getElementById('siteMenuContainer').style
     if (mainContainer.display === 'none') {
-        mainContainer.display = 'inline-block';
+        mainContainer.display = 'block';
         headerContainer.display = "block"
         siteMenuContainer.display = 'none'
     } else {
@@ -51,4 +55,22 @@ function siteMenu(){
         headerContainer.display = "none";
         siteMenuContainer.display = 'block'
     }
+}
+
+function sendEmail(){
+    let vorName = document.getElementById('vorName').value;
+    let nachName = document.getElementById('nachName').value;
+    let email = document.getElementById('email').value;
+    let telefon = document.getElementById('telefon').value;
+    let nachricht = document.getElementById('nachricht').value;
+    if(vorName !== '' && nachName !== '' && email !== '' && nachricht !== ''){
+        alert(` Hallo ${vorName} ${nachName},\n
+                Email: ${email}\n
+                Nachricht: ${nachricht}\n                
+                Telefon Nummer: ${telefon||'-'}\n
+                Vielen Dank! 💜`);
+    } else{
+        alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
+    } 
+
 }

@@ -146,26 +146,30 @@
 <!-- kontakt -->
       <div id="kontaktContainer">
          <h1 id="kontakt" >Kontakt</h1>
-         <div id="kontaktFlexContainer">
+         <!--  action="https://formcarry.com/s/a0RVaUDdE7z" method="POST" -->
+         <div > 
+            <form id="kontaktFlexContainer" action="https://formcarry.com/s/a0RVaUDdE7z" method="POST"
+            >
             <div class="kontaktClass"id="vorNameContainer">
-               <input id="vorName" type="text" placeholder="Vorname*">
+               <input name="vorName" id="vorName" type="text" placeholder="*Vorname" required>
             </div>
             <div class="kontaktClass" id="nachNameContainer">
-               <input id="nachName" type="text" placeholder="Nachname*">
+               <input name="nachName" id="nachName" type="text" placeholder="*Nachname" required>
             </div>
             <div class="kontaktClass"id="emailContainer">
-               <input id="email" type="text" placeholder="Email*" autocomplete="off">
+               <input name="email" id="email" type="email" placeholder="*Email" autocomplete="on" required>
             </div>
             <div class="kontaktClass"id="telefonContainer" >
-               <input id="telefon" type="text" placeholder="Telefon">
+               <input name="telefon" id="telefon" type="tel" placeholder="Telefon"  >
             </div>
          </div>
          <div class="kontaktClass"id="nachrichtContainer" >
-            <textarea id="nachricht" placeholder="Nachricht schreiben ..."></textarea>
+            <textarea name="nachricht" id="nachricht" placeholder="*Nachricht schreiben..." required ></textarea>
          </div>
          <div class="kontaktClass"id="sendenContainer" >
-            <button id="senden" type="button" name="Senden">Senden</button>
+            <button id="senden" type="submit">Senden</button>
          </div>
+         </form>
       </div>
    </main>
 <!-- footer -->
