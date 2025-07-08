@@ -13,10 +13,6 @@
     width: 300px;
     height: 400px;
     border-radius: 30px;
-    opacity: 33%;
-}
-.flexImage:hover{
-    opacity: 100%;
 }
 .flexText{
     position: absolute;
