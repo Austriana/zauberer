@@ -46,7 +46,7 @@
 }
 #menuContainer ul{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     width: 99%;

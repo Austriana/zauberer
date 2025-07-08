@@ -32,13 +32,23 @@ senden.addEventListener('click', ()=>{
 })
 
 function menu(){
-    let menuFenster = document.getElementById("menuFenster").style;
-    if(menuFenster.display === "inline-block"){
-        menuFenster.display = "none";
+    let menuFenster = document.getElementById("menuFenster");
+    if(menuFenster.style.display === "inline-block"){
+        menuFenster.style.display = "none";
         menuImage.style.display = "inline-block";
+
+
     } else {
-        menuFenster.display = "inline-block"
+        menuFenster.style.display = "inline-block"
         menuImage.style.display = "none";
+        menuFenster.animate([
+                {
+                    width:'0%'
+                },
+                {
+                    width:'100%'
+                },
+            ], 250);
     };
 };
 
