@@ -35,11 +35,12 @@
     width: 300px;
     height: 365px;
     border-radius: 30px;
-    bottom: 45px;
+    bottom: 65px;
     opacity: 0%;
 }
 .flexImageContent:hover{
     opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .flexImageContent h3{
     padding: 0;
