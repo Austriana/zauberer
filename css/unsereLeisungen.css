@@ -1,3 +1,12 @@
+@keyframes mymove  {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
 #unsereLeistungenFlexContainer{
     display: flex;
     flex-wrap: wrap;
@@ -36,10 +45,13 @@
     opacity: 0%;
     user-select: none;
     align-content: center;
+    cursor: pointer;
 }
 .flexImageContent:hover{
-    opacity: 100%;
     background-color: rgba(0, 0, 0, 0.8);
+    animation-name: mymove;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 .flexImageContent h3{
     padding: 0;
