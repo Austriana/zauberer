@@ -34,6 +34,8 @@
     border-top-right-radius: 30px;
     bottom: 60px;
     opacity: 0%;
+    user-select: none;
+    align-content: center;
 }
 .flexImageContent:hover{
     opacity: 100%;
@@ -46,4 +48,5 @@
 .flexImageContent p{
     padding: 0;
     margin: 5px;
+    font-size: large;
 }
