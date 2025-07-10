@@ -1,4 +1,5 @@
 #warumPcZauberer{
+    position: relative;
     background-color: blueviolet;
     padding: 15px;
     border-radius: 25px;
@@ -6,6 +7,15 @@
     max-width: 600px;
     justify-self: center;
     margin: 30px;
+}
+#warumPcZauberer::after{
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 30px;
+    background: conic-gradient(from var(--angle),blue, magenta, red, orange, yellow, green, blue);
+    animation: spin linear 10s infinite;
+    z-index: -1;
 }
 #warumPcZauberer p{
     font-size: 30px;
