@@ -1,27 +1,27 @@
 let siteMenuImage = document.getElementById("menuIconContainer");
 siteMenuImage.addEventListener("click", () => {
     siteMenu();
-})
+});
 let siteMenuHome = document.getElementById("siteMenuHome");
 siteMenuHome.addEventListener("click", () => {
     siteMenu();
-})
+});
 let siteMenuLeistungen = document.getElementById("siteMenuLeistungen");
 siteMenuLeistungen.addEventListener("click", () => {
     siteMenu();
-})
+});
 let siteMenuTeam = document.getElementById("siteMenuTeam");
 siteMenuTeam.addEventListener("click", () => {
     siteMenu();
-})
+});
 let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
     siteMenu();
-})
+});
 let senden = document.getElementById('senden');
 senden.addEventListener('click', ()=>{
     sendEmail();
-})
+});
 
 function siteMenu(){
     let siteMenuContainer = document.getElementById('siteMenuContainer').style
@@ -30,7 +30,7 @@ function siteMenu(){
     } else {
         siteMenuContainer.display = 'block'
     }
-}
+};
 
 function sendEmail(){
     let vorName = document.getElementById('vorName').value;
@@ -47,4 +47,4 @@ function sendEmail(){
     } else{
         alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
     }
-}
+};
