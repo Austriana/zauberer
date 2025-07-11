@@ -11,7 +11,8 @@
 #warumPcZauberer::after{
     content: '';
     position: absolute;
-    inset: -3px;
+    inset: 0px;
+    filter: blur(10px);
     border-radius: 30px;
     background: conic-gradient(from var(--angle),blue, magenta, red, orange, yellow, green, blue);
     animation: spin linear 10s infinite;

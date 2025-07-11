@@ -17,10 +17,16 @@
 }
 #patrick, #boris{
     position: relative;
+}
+#patrick::after, #boris::after{
+    content: '';
+    position: absolute;
+    inset: 0px;
+    filter: blur(10px);
     border-radius: 30px;
-    padding: 3px;
     background: conic-gradient(from var(--angle),blue, magenta, red, orange, yellow, green, blue);
     animation: spin linear 10s infinite;
+    z-index: -1;
 }
 #patrickImage, #borisImage{
     border-radius: 30px;
