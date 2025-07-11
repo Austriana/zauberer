@@ -1,12 +1,4 @@
-let menuImage = document.getElementById("menuImage");
-menuImage.addEventListener("click", () => {
-    menu();
-})
-let menuBtn = document.getElementById('menuBtn');
-menuBtn.addEventListener('click', () => {
-    menu();
-})
-let siteMenuImage = document.getElementById("siteMenuImage");
+let siteMenuImage = document.getElementById("menuIconContainer");
 siteMenuImage.addEventListener("click", () => {
     siteMenu();
 })
@@ -31,39 +23,12 @@ senden.addEventListener('click', ()=>{
     sendEmail();
 })
 
-function menu(){
-    let menuFenster = document.getElementById("menuFenster");
-    if(menuFenster.style.display === "inline-block"){
-        menuFenster.style.display = "none";
-        menuImage.style.display = "inline-block";
-
-
-    } else {
-        menuFenster.style.display = "inline-block"
-        menuImage.style.display = "none";
-        menuFenster.animate([
-                {
-                    width:'0%'
-                },
-                {
-                    width:'100%'
-                },
-            ], 250);
-    };
-};
-
 function siteMenu(){
-    let headerContainer = document.getElementById('headerContainer').style;
-    let mainContainer = document.getElementById('mainContainer').style;
     let siteMenuContainer = document.getElementById('siteMenuContainer').style
-    if (mainContainer.display === 'none') {
-        mainContainer.display = 'block';
-        headerContainer.display = "block"
-        siteMenuContainer.display = 'none'
-    } else {
-        mainContainer.display = 'none';
-        headerContainer.display = "none";
+    if (siteMenuContainer.display === 'none') {
         siteMenuContainer.display = 'block'
+    } else {
+        siteMenuContainer.display = 'none'
     }
 }
 
