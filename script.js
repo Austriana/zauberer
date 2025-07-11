@@ -25,10 +25,10 @@ senden.addEventListener('click', ()=>{
 
 function siteMenu(){
     let siteMenuContainer = document.getElementById('siteMenuContainer').style
-    if (siteMenuContainer.display === 'none') {
-        siteMenuContainer.display = 'block'
-    } else {
+    if (siteMenuContainer.display === 'block') {
         siteMenuContainer.display = 'none'
+    } else {
+        siteMenuContainer.display = 'block'
     }
 }
 
