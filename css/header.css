@@ -4,7 +4,6 @@
 #home{
     width: 100%;
     min-width: 350px;
-    opacity: 50%;
 }
 #siteMenuContainer{
     position: fixed;
