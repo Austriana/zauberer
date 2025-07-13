@@ -1,21 +1,26 @@
-let siteMenuImage = document.getElementById("menuIconContainer");
-siteMenuImage.addEventListener("click", () => {
+let container = document.getElementById('container');
+container.addEventListener('click', ()=>{
+    container.classList.toggle('active');
     siteMenu();
 });
 let siteMenuHome = document.getElementById("siteMenuHome");
 siteMenuHome.addEventListener("click", () => {
+    container.classList.toggle('active');
     siteMenu();
 });
 let siteMenuLeistungen = document.getElementById("siteMenuLeistungen");
 siteMenuLeistungen.addEventListener("click", () => {
+    container.classList.toggle('active');
     siteMenu();
 });
 let siteMenuTeam = document.getElementById("siteMenuTeam");
 siteMenuTeam.addEventListener("click", () => {
+    container.classList.toggle('active');
     siteMenu();
 });
 let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
+        container.classList.toggle('active');
     siteMenu();
 });
 let senden = document.getElementById('senden');
@@ -24,12 +29,8 @@ senden.addEventListener('click', ()=>{
 });
 
 function siteMenu(){
-    let siteMenuContainer = document.getElementById('siteMenuContainer').style
-    if (siteMenuContainer.display === 'block') {
-        siteMenuContainer.display = 'none'
-    } else {
-        siteMenuContainer.display = 'block'
-    }
+    let siteMenuContainer = document.getElementById('siteMenuContainer')
+    siteMenuContainer.classList.toggle('active')
 };
 
 function sendEmail(){
