@@ -8,16 +8,22 @@ siteMenuHome.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
-let siteMenuLeistungen = document.getElementById("siteMenuLeistungen");
-siteMenuLeistungen.addEventListener("click", () => {
-    burgerContainer.classList.toggle('active');
-    siteMenu();
-});
 let siteMenuTeam = document.getElementById("siteMenuTeam");
 siteMenuTeam.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
+let siteMenuGutschein = document.getElementById("siteMenuGutschein");
+siteMenuGutschein.addEventListener("click", () => {
+        burgerContainer.classList.toggle('active');
+    siteMenu();
+});
+let siteMenuLeistungen = document.getElementById("siteMenuLeistungen");
+siteMenuLeistungen.addEventListener("click", () => {
+    burgerContainer.classList.toggle('active');
+    siteMenu();
+});
+
 let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
         burgerContainer.classList.toggle('active');

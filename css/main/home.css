@@ -1,7 +1,7 @@
 #homeContainer{
     position: relative;
 }
-#home{
+#homeImage{
     width: 100%;
     min-width: 350px;
 }

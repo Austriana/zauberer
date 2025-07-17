@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navMobile.css">
+    <link rel="stylesheet" href="./css/main/home.css">
     <link rel="stylesheet" href="./css/main/dasTeam.css">
     <link rel="stylesheet" href="./css/main/unsereLeisungen.css">
     <link rel="stylesheet" href="./css/main/content.css">
@@ -18,28 +18,33 @@
     <title>Fake PC Zauberer | Website</title>
 </head>
 <body>
-   <nav id="navContainer">
-      <div id="burgerContainer">
-         <div id="burger"></div>
-      </div>
-      <section id="siteMenu">
-         <div id="siteMenuContainer">
-            <ul>
-               <li><a id="siteMenuHome" href="#home">Home</a></li>
-               <li><a id="siteMenuTeam" href="#dasTeam">Team</a></li>
-               <li><a id="siteMenuLeistungen" href="#unsereLeistungen">Leistungen</a></li>
-               <li><a id="siteMenuKontakt" href="#kontakt">Kontakt</a></li>
-            </ul>
-         </div>
-      </section>
-   </nav>
+<!-- navMobile, navDesktop -->
    <header id="headerContainer">
-      <div id="homeContainer">
-         <img id="home" src="./picture/logo.png" alt="pc-zauberer logo groß"></a>
-      </div> 
+      <nav id="navContainer">
+         <div id="burgerContainer">
+            <div id="burger"></div>
+         </div>
+         <section id="siteMenu">
+            <div id="siteMenuContainer">
+               <ul>
+                  <li><a id="siteMenuHome" href="#home">Home</a></li>
+                  <li><a id="siteMenuTeam" href="#dasTeam">Team</a></li>
+                  <li><a id="siteMenuLeistungen" href="#unsereLeistungen">Leistungen</a></li>
+                  <li><a id="siteMenuGutschein" href="#gutschein">Gutscheine</a></li>
+                  <li><a id="siteMenuKontakt" href="#kontakt">Kontakt</a></li>
+               </ul>
+            </div>
+         </section>
+      </nav>
    </header>
-<!-- dasTeam, content, unsereLeistungen, gutschein, kontakt -->
+<!--home, dasTeam, content, unsereLeistungen, gutschein, kontakt -->
    <main id="mainContainer">
+<!-- home -->
+      <section id="home">
+         <div id="homeContainer">
+            <img id="homeImage" src="./picture/logo.png" alt="pc-zauberer logo groß"></a>
+         </div> 
+      </section>
 <!-- dasTeam -->
       <section id="dasTeam">
          <h1>Das Team</h1>
@@ -203,6 +208,7 @@
          </div>
    </section>
 <!-- gutschein -->
+   <section id="gutschein">
       <div id="gutscheinContainer">
          <h1>Gutscheine!</h1>
          <h2>Ab sofort gibt es auch Gutscheine!</h2>
@@ -212,9 +218,11 @@
          </div>
          <h2>Wir bieten Gutscheine für all unsere Services an.</h2>
       </div>
+   </section>
 <!-- kontakt -->
+   <section id="kontakt">
       <div id="kontaktContainer">
-         <h1 id="kontakt" >Kontakt</h1>
+         <h1>Kontakt</h1>
          <form action="https://formcarry.com/s/a0RVaUDdE7z" method="POST"> 
             <div id="kontaktFlexContainer">
                <div class="kontaktClass"id="vorNameContainer">
@@ -238,7 +246,9 @@
             </div>
          </form>
       </div>
+   </section>
    </main>
+<!-- original Website Link -->
    <footer id="footerContainer">
       <section id="footer">
          <div>
