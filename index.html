@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
+<!-- meta, link, script -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- links -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/dasTeam.css">
-    <link rel="stylesheet" href="./css/unsereLeisungen.css">
-    <link rel="stylesheet" href="./css/kontakte.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/content.css">
-    <link rel="stylesheet" href="./css/gutschein.css">
+    <link rel="stylesheet" href="./css/main/dasTeam.css">
+    <link rel="stylesheet" href="./css/main/unsereLeisungen.css">
+    <link rel="stylesheet" href="./css/main/content.css">
+    <link rel="stylesheet" href="./css/main/gutschein.css">
+    <link rel="stylesheet" href="./css/main/kontakte.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="shortcut icon" href="./picture/logo.png" type="image/x-icon">
     <script type="module" src="script.js"></script>
     <title>Fake PC Zauberer | Website</title>
 </head>
 <body>
-<!-- header -->
-   <header id="headerContainer">
-      <div id="container">
+   <nav id="navContainer">
+      <div id="burgerContainer">
          <div id="burger"></div>
       </div>
       <section id="siteMenu">
@@ -32,13 +32,14 @@
             </ul>
          </div>
       </section>
+   </nav>
+   <header id="headerContainer">
+      <div id="homeContainer">
+         <img id="home" src="./picture/logo.png" alt="pc-zauberer logo groß"></a>
+      </div> 
    </header>
 <!-- dasTeam, content, unsereLeistungen, gutschein, kontakt -->
    <main id="mainContainer">
-            <div id="homeContainer">
-         <img id="home" src="./picture/logo.png" alt="pc-zauberer logo groß"></a>
-      </div> 
-
 <!-- dasTeam -->
       <section id="dasTeam">
          <h1>Das Team</h1>
@@ -112,8 +113,9 @@
                <div class="flexText">
                   <p>Zusammenbau & Test</p>
                   <div class="flexImageContent"><h3>Zusammenbau & Test</h3>
-                     <p> 
-                        Wir bauen deinen Gaming-PC professionell zusammen und testen ihn auf Leistung und Stabilität. 
+                     <p>
+                        Du benötigst hilfe beim Zusammenbau?
+                        Wir bauen dein PC-Setup professionell zusammen und testen ihn auf Leistung und Stabilität. 
                         Du musst also nur noch dein Betriebssystem installieren und schon kann es losgehen!
                      </p>
                      <p>130 €</p>
@@ -168,7 +170,8 @@
                   <p>Windows Installation</p>
                   <div class="flexImageContent">
                      <h3>Windows Installation</h3>
-                     <p>Wir helfen dir bei der Windows Installation. 
+                     <p>Du benötigst hilfe bei der Windows Installation?
+                        Das erledigen wir gerne für dich! 
                         Egal ob du dein System neu aufsetzen musst oder du deinen neuen Gaming-PC 
                         schon mit vorinstalliertem Windows und Treibern erhalten möchtest. 
                         Einfach anstecken und loslegen!
@@ -236,10 +239,9 @@
          </form>
       </div>
    </main>
-<!-- footer -->
-   <footer>
-      <section id="footerContainer">
-         <div id="footer">
+   <footer id="footerContainer">
+      <section id="footer">
+         <div>
             <p>
                <a href="http://www.pc-zauberer.de">© Austriana - link to Official Website</a>
             </p>

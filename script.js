@@ -1,36 +1,36 @@
-let container = document.getElementById('container');
-container.addEventListener('click', ()=>{
-    container.classList.toggle('active');
+let burgerContainer = document.getElementById('burgerContainer');
+burgerContainer.addEventListener('click', () => {
+    burgerContainer.classList.toggle('active');
     siteMenu();
 });
 let siteMenuHome = document.getElementById("siteMenuHome");
 siteMenuHome.addEventListener("click", () => {
-    container.classList.toggle('active');
+    burgerContainer.classList.toggle('active');
     siteMenu();
 });
 let siteMenuLeistungen = document.getElementById("siteMenuLeistungen");
 siteMenuLeistungen.addEventListener("click", () => {
-    container.classList.toggle('active');
+    burgerContainer.classList.toggle('active');
     siteMenu();
 });
 let siteMenuTeam = document.getElementById("siteMenuTeam");
 siteMenuTeam.addEventListener("click", () => {
-    container.classList.toggle('active');
+    burgerContainer.classList.toggle('active');
     siteMenu();
 });
 let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
-        container.classList.toggle('active');
+        burgerContainer.classList.toggle('active');
     siteMenu();
 });
 let senden = document.getElementById('senden');
-senden.addEventListener('click', ()=>{
+senden.addEventListener('click', () => {
     sendEmail();
 });
 
 function siteMenu(){
     let siteMenuContainer = document.getElementById('siteMenuContainer')
-    siteMenuContainer.classList.toggle('active')
+    siteMenuContainer.classList.toggle('active');
 };
 
 function sendEmail(){
@@ -47,5 +47,5 @@ function sendEmail(){
                 Vielen Dank! 💜`);
     } else{
         alert("Bitte alle Felder ausfüllen damit wir uns besser vorbereiten können!");
-    }
+    };
 };
