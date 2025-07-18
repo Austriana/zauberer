@@ -1,14 +1,10 @@
 #agbContainer p, #agbContainer ul{
-    width: 100%;
+    width: 95%;
     max-width: 600px;
     min-width: 300px;
     margin-left: 50%;
     transform: translate(-50%);
-    padding: 5px;
 }
-/* #agbContainer ul{
-    margin-left: 50%;
-    transform: translate(-50%);
-    min-width: 300px;
-    max-width: 600px;
-} */
+#agbContainer li{
+    padding: 0;
+}
