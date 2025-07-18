@@ -3,6 +3,13 @@ burgerContainer.addEventListener('click', () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
+let mainContainer = document.getElementById('mainContainer');
+mainContainer.addEventListener('click', () => {
+    if(burgerContainer.className === 'active'){
+        burgerContainer.classList.toggle('active');
+        siteMenu();
+    };
+});
 let siteMenuHome = document.getElementById("siteMenuHome");
 siteMenuHome.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
