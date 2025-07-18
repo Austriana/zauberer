@@ -42,7 +42,15 @@ senden.addEventListener('click', () => {
 
 function siteMenu(){
     let siteMenuContainer = document.getElementById('siteMenuContainer')
-    siteMenuContainer.classList.toggle('active');
+    if(siteMenuContainer.style.visibility === 'visible'){
+        siteMenuContainer.style.visibility = 'hidden';
+        siteMenuContainer.classList.toggle('deactive');
+        siteMenuContainer.classList.remove('active');
+    } else{
+        siteMenuContainer.style.visibility = 'visible';
+        siteMenuContainer.classList.toggle('active');
+        siteMenuContainer.classList.remove('deactive');
+    }
 };
 
 function sendEmail(){
