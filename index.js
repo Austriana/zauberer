@@ -29,6 +29,12 @@ siteMenuKontakt.addEventListener("click", () => {
         burgerContainer.classList.toggle('active');
     siteMenu();
 });
+let siteMenuAgb = document.getElementById("siteMenuAgb");
+siteMenuAgb.addEventListener("click", () => {
+        burgerContainer.classList.toggle('active');
+    siteMenu();
+});
+
 let senden = document.getElementById('senden');
 senden.addEventListener('click', () => {
     sendEmail();
