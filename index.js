@@ -57,10 +57,10 @@ siteMenuImpressum.addEventListener("click", () => {
     siteMenu();
 });
 
-let senden = document.getElementById('senden');
-senden.addEventListener('click', () => {
-    sendEmail();
-});
+// let senden = document.getElementById('senden');
+// senden.addEventListener('click', () => {
+//     sendEmail();
+// });
 
 function siteMenu(){
     let siteMenuContainer = document.getElementById('siteMenuContainer')
