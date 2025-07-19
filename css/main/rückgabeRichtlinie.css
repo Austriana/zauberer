@@ -1,0 +1,10 @@
+#rückgabeRichtlinieContainer p, #rückgabeRichtlinieContainer ul{
+    width: 95%;
+    max-width: 600px;
+    min-width: 300px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#rückgabeRichtlinieContainer li{
+    padding: 0;
+}

@@ -19,6 +19,7 @@ h1{
     font-size: 40px;
     color: white;
     text-shadow: 2px 2px 2px blueviolet;
+    text-decoration: underline;
 }
 h2{
     text-align: center;
