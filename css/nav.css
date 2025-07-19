@@ -23,6 +23,7 @@
     text-align: center;
     list-style: none;
     padding: 10px;
+    text-decoration: underline;
 }
 #siteMenuContainer ul{
     text-decoration: none;
