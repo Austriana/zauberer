@@ -11,6 +11,13 @@ body{
     min-width: 350px;
     box-sizing: border-box;
 }
+#body{
+    opacity: 0%;
+}
+#body.fadeIn{
+    transition: all .5s linear;
+    opacity: 100%;
+}
 main{
     padding-bottom: 50px;
 }

@@ -1,3 +1,7 @@
+window.addEventListener('load', () => {
+    let body = document.getElementById('body');
+    body.classList.toggle('fadeIn');
+})
 let burgerContainer = document.getElementById('burgerContainer');
 burgerContainer.addEventListener('click', () => {
     burgerContainer.classList.toggle('active');
@@ -20,6 +24,7 @@ siteMenuTeam.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
+
 let siteMenuGutschein = document.getElementById("siteMenuGutschein");
 siteMenuGutschein.addEventListener("click", () => {
         burgerContainer.classList.toggle('active');
@@ -30,7 +35,11 @@ siteMenuLeistungen.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
-
+let siteMenuGeschäftsKunden = document.getElementById("siteMenuGeschäftsKunden");
+siteMenuGeschäftsKunden.addEventListener("click", () => {
+    burgerContainer.classList.toggle('active');
+    siteMenu();
+});
 let siteMenuKontakt = document.getElementById("siteMenuKontakt");
 siteMenuKontakt.addEventListener("click", () => {
         burgerContainer.classList.toggle('active');
