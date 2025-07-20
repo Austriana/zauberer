@@ -11,7 +11,7 @@
 }
 #siteMenuContainer.active{
     transition: all .3s linear;
-    width: 33%;
+    width: 270px;
     opacity: 100%;
 }
 #siteMenuContainer.deactive{
@@ -29,6 +29,8 @@
     text-decoration: none;
     width: 100%;
     height: 75%;
+    overflow-x: hidden;
+    overflow-y: auto;
     justify-items: center;
     align-content: center;
     margin: 0;
