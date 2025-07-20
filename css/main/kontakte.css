@@ -38,3 +38,11 @@
 #instaIcon{
     width: 50px;
 }
+#mapsIcon{
+    width: 50px;
+    scale: 1.4;
+}
+#mailIcon{
+    width: 65px;
+    scale: 0.9;
+}
