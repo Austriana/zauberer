@@ -40,32 +40,6 @@ siteMenuGeschäftsKunden.addEventListener("click", () => {
     burgerContainer.classList.toggle('active');
     siteMenu();
 });
-// let siteMenuKontakt = document.getElementById("siteMenuKontakt");
-// siteMenuKontakt.addEventListener("click", () => {
-//         burgerContainer.classList.toggle('active');
-//     siteMenu();
-// });
-// let siteMenuAgb = document.getElementById("siteMenuAgb");
-// siteMenuAgb.addEventListener("click", () => {
-//         burgerContainer.classList.toggle('active');
-//     siteMenu();
-// });
-// let siteMenuVersandRichtlinie = document.getElementById("siteMenuVersandRichtlinie");
-// siteMenuVersandRichtlinie.addEventListener("click", () => {
-//         burgerContainer.classList.toggle('active');
-//     siteMenu();
-// });
-// let siteMenuRückgabeRichtlinie = document.getElementById("siteMenuRückgabeRichtlinie");
-// siteMenuRückgabeRichtlinie.addEventListener("click", () => {
-//         burgerContainer.classList.toggle('active');
-//     siteMenu();
-// });
-// let siteMenuImpressum = document.getElementById("siteMenuImpressum");
-// siteMenuImpressum.addEventListener("click", () => {
-//         burgerContainer.classList.toggle('active');
-//     siteMenu();
-// });
-
 // let senden = document.getElementById('senden');
 // senden.addEventListener('click', () => {
 //     sendEmail();
