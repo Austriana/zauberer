@@ -9,6 +9,7 @@
     left: 0px;
     overflow-y: auto;
     overflow-x: hidden;
+    height: calc(100% - 50px);
 }
 #siteMenuContainer.active{
     transition: all .3s linear;
@@ -29,9 +30,11 @@
 #siteMenuContainer ul{
     text-decoration: none;
     width: 100%;
+    height: 100%;
     justify-items: center;
-    margin: 100px 0;
+    align-content: center;
     padding: 0;
+    margin: 0;
 }
 #burgerContainer{
     position: fixed;
