@@ -1,6 +1,15 @@
 #homeContainer{
     position: relative;
     width: 100%;
+    height: 200px;
+    background-color: rgba(119, 36, 196, .3);
+    align-content: center;
+
+}
+#homeContainer h1{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
 }
 #homeLogo{
     width: 100%;
