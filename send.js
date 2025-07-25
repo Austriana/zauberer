@@ -1,7 +1,7 @@
-let senden = document.getElementById('senden');
-senden.addEventListener('click', () => {
-    sendEmail();
-});
+// let submit = document.getElementById('submit');
+// submit.addEventListener('click', () => {
+//     sendEmail();
+// });
 
 function sendEmail(){
     let vorName = document.getElementById('vorName').value;
