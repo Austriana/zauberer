@@ -1,10 +1,16 @@
-let submit = document.getElementById('submit');
-(function () {
-    emailjs.init({
-         publicKey: 'mx5VNABEFS73usmjF',
-      });
-})();
+// to do list:
 
+// emailjs:
+// comment this in if emailjs is used: ---> send(params); <---
+// insert public, service, template id
+// create emailjs template - (vorName, nachName, email, telefon, nachricht) <- use this variables for template in emailjs 
+// adjust to the right method in file: ---> kontakt.html <--- 
+
+// formcarry, mailto:
+// comment this out if formcarry or mailto is used: ---> send(params); <---
+// adjust to the right method in file: ---> kontakt.html <--- 
+
+let submit = document.getElementById('submit');
 submit.addEventListener('click', () => {
     let params = {
         vorName : document.getElementById('vorName').value,
@@ -32,7 +38,8 @@ submit.addEventListener('click', () => {
 });
 
 function send(params) {
-    emailjs.send('service_8j9d9v8', 'template_g7jcnza', params);
+    emailjs.init({publicKey: 'mx5VNABEFS73usmjF'}); //publicId <- replace to your id
+    emailjs.send('service_8j9d9v8', 'template_g7jcnza', params); //(serviceId, templateId, params)<- replace to your id 
     document.getElementById('vorName').value='';
     document.getElementById('nachName').value='';
     document.getElementById('email').value='';
